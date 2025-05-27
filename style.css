@@ -173,6 +173,8 @@ footer {
     align-items: center;
     height: 100px;
     background-color: #222222;
+    position: sticky;
+    bottom: 0;
 }
 
 .nav-footer {
