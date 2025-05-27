@@ -1,0 +1,495 @@
+
+
+@media (max-width: 1530px) {
+
+    /*SUB PORTADA*/
+    .portada {
+        margin: 20px auto;
+    }
+
+    /*SKILLS*/
+    .section-gral {
+        margin-top: 40px;
+    }
+
+    .title-secundario {
+        margin-left: 40px;
+        font-size: 20px;
+    }
+
+    .contenedor-skills {
+        width: 70vw;
+    }
+        /*PROYECTOS*/
+    .contenedor-card {
+        margin: 20px auto;
+        width: 300px;
+    }
+
+    .card-contenedor {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .card-img-proyect {
+        width: 300px;
+        height: 200px !important;
+    }
+
+    .btn-card {
+        border: none !important;
+    }
+
+    .btn-card:hover {
+        background-color: black !important;
+        color: #0098a8;
+    }
+
+    /*SOBRE MI*/
+
+
+    .formacion {
+        padding-top: 30px;
+    }
+
+    .title-sobre-mi {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+
+    .img-sobre-mi {
+        width: 250px;
+    }
+
+    .sobre-mi {
+        width: 85vw;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .sub-title-estudios {
+        margin: 10px 10px;
+        margin-left: 70px;
+    }
+
+    /*FORMULARIO DE CONTACTO*/
+
+
+    .contact-form {
+        width: 70vw;
+    }
+
+    .contact-description {
+        color: rgb(107 114 128);
+    }
+
+    .form-group-container {
+        display: grid;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-label {
+        margin-bottom: 0.5rem;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .form-input,
+    .form-textarea {
+        width: 70vw;
+    }
+    .nav-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    margin-left: 10px;
+}
+
+}
+
+
+
+@media (max-width: 760px) {
+    .cabecera {
+        position: sticky;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10000;
+        top: 0px;
+        height: 50px;
+    }
+
+    .navegacion {
+        height: 50px;
+    }
+
+    /*PORTADA*/
+    .portada {
+        margin: 30px auto;
+        width: 85vw;
+        height: max-content;
+    }
+
+    .sub-portada {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .info-perfil p {
+        font-size: 15px;
+        width: 280px;
+    }
+
+    .img-perfil {
+        width: 190px;
+    }
+
+    /*SKILLS*/
+    .section-gral {
+        margin-top: 40px;
+    }
+
+    .sobre-mi {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        width: 60vw;
+        letter-spacing: 2.5px;
+    }
+
+    .title-secundario {
+        margin: 20px 0px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .contenedor-skills {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+        width: 70vw;
+    }
+
+    /*PROYECTOS*/
+    .contenedor-card {
+        margin: 20px auto;
+        width: 300px;
+    }
+
+    .card-contenedor {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .card-img-proyect {
+        width: 300px;
+        height: 200px !important;
+    }
+
+    .btn-card {
+        border: none !important;
+    }
+
+    .btn-card:hover {
+        background-color: black !important;
+        color: #0098a8;
+    }
+
+    /*SOBRE MI*/
+    .sobre-mi-gral {
+        height: max-content;
+    }
+
+    .sobre-mi {
+        margin-top: 15px;
+        font-size: 10px;
+        width: 500px;
+    }
+
+    /*FORMACION*/
+
+    .title-sobre-mi {
+        margin: 0px 0px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .formacion {
+        padding-top: 30px;
+    }
+
+    .sobre-mi {
+        line-height: 15px;
+    }
+
+    .sub-title-estudios {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    /*FORMULARIO DE CONTACTO*/
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 85vw;
+    }
+
+    .tilte-contacto {
+        margin: 25px;
+    }
+
+    .tilte-contacto {
+        margin-bottom: 0px;
+    }
+
+    .form-label {
+        margin-left: 65px;
+    }
+
+    .form-input,
+    .form-textarea {
+        margin: 0 auto;
+        width: 65vw;
+    }
+
+
+    .form-submit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 115PX;
+        height: 40px;
+        margin: 1.2rem auto;
+        font-size: 15px;
+    }
+    .pieDePagina{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+    }
+    .nav-footer{
+        height: 40px;
+        margin-top: 20px;
+    }
+    .nav-footer-redes{
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .nav-footer-redes h6{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+    .cabecera {
+        position: sticky;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        z-index: 10000;
+        top: 0px;
+        height: 90px;
+    }
+
+    .navegacion {
+        height: 50px;
+        width: 350px;
+    }
+
+    /*PORTADA*/
+    .portada {
+        margin: 30px auto;
+        width: 85vw;
+        height: max-content;
+    }
+
+    .sub-portada {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-perfil {
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .info-perfil h1 {
+        font-size: 25px;
+        width: 200px;
+    }
+
+    .info-perfil h1 span {
+        color: #0098a8;
+    }
+
+    .info-perfil p {
+        font-size: 15px;
+        width: 280px;
+    }
+
+    .btn-perfil {
+        height: 35px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .img-perfil {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    /*SKILLS*/
+
+    .section-gral {
+        margin-top: 20px;
+    }
+
+    .sobre-mi {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        width: 60vw;
+        letter-spacing: 2.5px;
+    }
+
+    .title-secundario {
+        margin: 20px 0px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .contenedor-skills {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1rem;
+        margin: 0 auto;
+        width: 50vw;
+    }
+
+    .text {
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+    }
+
+    .contenedor-skills span {
+        font-size: 40px;
+    }
+
+    /*PROYECTOS*/
+    .contenedor-card {
+        margin: 20px auto;
+        width: 208px;
+    }
+
+    .card-contenedor {
+        width: 202px !important;
+        height: 220px !important;
+    }
+
+    .card-img-proyect {
+        width: 200px;
+        height: 120px !important;
+    }
+
+    .tilte-card {
+        font-size: 15px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .btn-card {
+        font-size: 10px;
+        border: none !important;
+    }
+
+    .btn-card:hover {
+        background-color: black !important;
+        color: #0098a8;
+    }
+
+    /*SOBRE MI*/
+    .sobre-mi-gral {
+        height: max-content;
+    }
+
+    .sobre-mi {
+        font-size: 10px;
+        width: 300px;
+    }
+
+
+    /*FORMACION*/
+
+    .title-sobre-mi {
+        margin: 0px 0px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .formacion {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .sobre-mi {
+        line-height: 15px;
+        margin-top: 00px;
+    }
+
+    .sub-title-estudios {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    /*FORMULARIO DE CONTACTO*/
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 85vw;
+    }
+
+    .contacto {
+        padding-top: 30px;
+    }
+
+    .tilte-contacto {
+        margin-bottom: 0px;
+    }
+
+    .form-label {
+        margin-left: 20px;
+    }
+
+    .form-input,
+    .form-textarea {
+        margin: 0 auto;
+        width: 75vw;
+    }
+
+
+    .form-submit {
+        width: 80PX;
+        height: 40px;
+        margin: 1.2rem auto;
+        font-size: 10px;
+    }
+}

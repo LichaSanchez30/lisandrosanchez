@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lisandro Sanchez - Desarrollador Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style_responsive.css" />
+</head>
+
+<body>
+  <header class="cabecera">
+    
+    <nav class="navegacion">
+      <ol>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/#skills">Skills</a></li>
+        <li><a href="#">Sobre Mi</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ol>
+    </nav>
+  </header>
+  <main class="portada">
+    <section class="sobre-mi-gral">
+      <h2 class="title-sobre-mi">SOBRE MI</h2>
+      <img src="/img/portada.png" alt="" class="img-perfil img-sobre-mi" />
+      <p class="text sobre-mi">
+        ¡Hola! Soy Lisandro Fabián Sánchez, desarrollador web Full Stack en
+        formación, apasionado por crear soluciones tecnológicas que mejoren la
+        vida de las personas. Vengo del mundo de la administración y la
+        gestión en salud, lo que me dio una mirada integral sobre los
+        procesos, la empatía con el usuario y la importancia de la eficiencia.
+        En los últimos años me enfoqué en aprender tecnologías como HTML, CSS,
+        JavaScript, React, Node.js, MongoDB y SQL, combinando el desarrollo
+        frontend y backend con una base sólida en análisis de datos. Me gusta
+        trabajar en equipo, resolver problemas reales y diseñar experiencias
+        digitales accesibles, funcionales y con propósito. Uno de mis grandes
+        objetivos es aplicar la tecnología en proyectos sociales,
+        especialmente relacionados con la accesibilidad, la salud y la
+        inclusión. Creo que el desarrollo web no solo trata de crear sitios
+        lindos, sino de conectar personas, facilitar procesos y transformar
+        ideas en herramientas útiles. Actualmente estoy en constante
+        aprendizaje y crecimiento, buscando oportunidades para sumarme a
+        desafíos donde pueda aportar valor, seguir aprendiendo y crecer como
+        profesional.
+      </p>
+    </section>
+    <section class="section-gral formacion">
+      <h2 class="title-sobre-mi tilte-formacion">Formación academica</h2>
+      <div>
+        <h5 class="sub-title-estudios tilte-estudios">Tecnicatura en programación - UNQ </h5>
+        <h6 class="sub-title-estudios">En curso: Año 2024 - Actualidad</h6>
+        <p class="sub-title-estudios">2do año</p>
+      </div>
+      <div>
+        <h5 class="sub-title-estudios tilte-estudios">Data Analitycs - CoderHouse</h5>
+        <h6 class="sub-title-estudios">Finalizado: Febrero 2025 - Abril 2025</h6>
+      </div>
+      <div>
+        <h5 class="sub-title-estudios tilte-estudios">Desarrollo Web FullStack - CoderHouse</h5>
+        <h6 class="sub-title-estudios">Finalizado: Año 2023 - Año 2024</h6>
+      </div>
+    </section>
+    </section>
+    <section class="section-gral contacto" id="contacto">
+      <h2 class="title-sobre-mi tilte-contacto">Contacto</h2>
+      <div>
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+          <input type="hidden" name="access_key" value="b0d9f951-4300-4979-a4ec-7e7ea2c29bac" />
+          <input type="hidden" name="subject" value="Nueva consulta" />
+          <input type="hidden" name="from_name" value="Contacto" />
+          <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+
+          <div class="form-group-container">
+            <div class="form-group">
+              <label for="name" class="form-label">Nombre</label>
+              <input id="name" name="name" class="form-input" placeholder="Nombre" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input id="email" name="email" class="form-input" placeholder="email@hotmail.com" type="email" />
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label">Telefono</label>
+              <input id="phone" name="phone" class="form-input" placeholder="+54 9 11-9999-9999" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Consulta</label>
+              <textarea class="form-textarea" id="message" name="message" placeholder="Mensaje"></textarea>
+            </div>
+          </div>
+          <button class="form-submit" type="submit">Enviar consulta</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="pieDePagina">
+      <div class="nav-footer">
+        <a class="bars" href="">Inicio</a>
+        <a class="bars" href="">Skills</a>
+        <a class="bars" href="">Sobre Mi</a>
+        <a href="">Contacto</a>
+      </div>
+      <div class="nav-footer">
+        <a href="mailto:licha.sanchez.30@hotmail.com">Copyrigth | Lisandro Sanchez </a>
+      </div>
+      <div class="nav-footer nav-footer-redes ">
+        <h6>Redes</h6>
+        <div class="iconos-redes">
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+        </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/ef83b7174f.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
