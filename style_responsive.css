@@ -1,5 +1,5 @@
 
-
+/* --- MEDIA QUERIES RECOMENDADOS PARA COMPLETAR --- */
 @media (max-width: 1530px) {
 
     /*SUB PORTADA*/
@@ -492,4 +492,11 @@
         margin: 1.2rem auto;
         font-size: 10px;
     }
+}
+/* Muy pantallas grandes */
+@media (min-width: 1531px) {
+  /* Limitar ancho máximo, centrar contenido */
+  .container {
+    max-width: 1200px;
+  }
 }
